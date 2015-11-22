@@ -36,10 +36,10 @@ OS X
  ![](https://raw.githubusercontent.com/rosay/vimnav/master/readme-pics/seil-settings.png)
  4. Download and install [Karabiner](https://pqrs.org/osx/karabiner/index.html.en)
  5.  Open Karabiner and go to Misc & Uninstall tab
- 6. Click the Open Private.xml button (this will open Finder where private.xml exists)
+ 6. Click the Open Private.xml button (this will open Finder to where private.xml exists)
  ![](https://raw.githubusercontent.com/rosay/vimnav/master/readme-pics/karabiner-private.png)
  7. Open private.xml with your favorite text editor
- 8. Copy contents of vimnav\osx\KarabinerPrivate.xml into private.xml
+ 8. Copy contents of osx\KarabinerPrivate.xml into private.xml
  9. Save private.xml and and close it.
  10. Back in Karabiner go to the Change Key tab
  ![](https://raw.githubusercontent.com/rosay/vimnav/master/readme-pics/karabiner-settings.png)
