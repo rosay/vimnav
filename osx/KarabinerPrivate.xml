@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<root>
+	<modifierdef>F19_MODIFIER</modifierdef>
+	<item>
+	    <name>Vim navigation</name>
+	    <appendix>Map Vim style hjkl + $^ navigation</appendix>
+	    <identifier>private.VimWithF19</identifier>
+	    <autogen>
+	        --KeyToKey--
+	        KeyCode::F19,
+	        KeyCode::VK_MODIFIER_F19_MODIFIER
+	    </autogen>
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::H, 
+	    	ModifierFlag::F19_MODIFIER,
+	    	<!-- Map F19 + H to Left Arrow -->
+	    	KeyCode::CURSOR_LEFT
+	    </autogen>
+	    <autogen>
+	    	__KeyToKey__ KeyCode::J, 
+	    	ModifierFlag::F19_MODIFIER, 
+	    	<!-- Map F19 + J to Down Arrow -->
+	    	KeyCode::CURSOR_DOWN
+	    </autogen>
+	    <autogen>
+	    	__KeyToKey__ KeyCode::K,
+	    	ModifierFlag::F19_MODIFIER,
+	    	<!-- Map F19 + K to Up Arrow -->
+	    	KeyCode::CURSOR_UP
+	    </autogen>
+	    <autogen>
+	    	__KeyToKey__ KeyCode::L, 
+	    	ModifierFlag::F19_MODIFIER,
+	    	<!-- Map F19 + L to Right Arrow -->
+	    	KeyCode::CURSOR_RIGHT
+	    </autogen>
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::KEY_4,
+	    	ModifierFlag::F19_MODIFIER,
+	    	<!-- Map F19 + 4 ($) to Command + Right Arrow -->
+	    	KeyCode::CURSOR_RIGHT,
+	    	ModifierFlag::COMMAND_R
+	    </autogen>
+   	    <autogen>
+   	    	__KeyToKey__
+   	    	KeyCode::KEY_6,
+   	    	ModifierFlag::F19_MODIFIER,
+	    	<!-- Map F19 + 6 (^) to Command + Left Arrow -->
+   	    	KeyCode::CURSOR_LEFT,
+   	    	ModifierFlag::COMMAND_R
+   	    </autogen>
+	</item>
+</root>
