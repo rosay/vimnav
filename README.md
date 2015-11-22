@@ -28,7 +28,7 @@ OS X
 - [Karabiner](https://pqrs.org/osx/karabiner/index.html.en)
 
 ### Instructions
- 1. Disable the Caps Lock key in OS X.
+ 1. Disable the Caps Lock key in OS X
 ![](https://raw.githubusercontent.com/rosay/vimnav/master/readme-pics/osx-kb-settings.png)
 **Note** this must be done for every keyboard!
  2. Download and Install [Seil](https://pqrs.org/osx/karabiner/seil.html.en)
@@ -55,7 +55,7 @@ Windows
 
 ### Instructions 
  1. Download and install [AutoHotKey](https://www.autohotkey.com)
- 2. Double click windows\vimnav.ahk to run the script.
+ 2. Double click windows\vimnav.ahk to run the script
  3. Right click windows\vimnav.ahk and choose "Create Shortcut"
  4. Open Run, type 'shell:startup'
  5. Drag shortcut into Startup folder
