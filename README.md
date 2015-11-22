@@ -1,8 +1,9 @@
-# Take back Caps lock
-Use Vim style navigation anywhere by using your caps lock key as a special modifier.
+Take Back Caps Lock
+=================
+Use Vim style navigation anywhere by using the Caps Lock key as a special modifier.
 ![](https://raw.githubusercontent.com/rosay/vimnav/master/readme-pics/kb-layout.jpg)
 
-#### To Use
+#### How to Use
 Hold down the Caps Lock key and press h to move the cursor to left, Caps Lock + j will move the cursor down, etc.
 
 #### All Shortcuts
@@ -13,8 +14,15 @@ Hold down the Caps Lock key and press h to move the cursor to left, Caps Lock + 
 - Caps Lock + 4: End
 - Caps Lock + 6: Home
 
-----------
-## OS X
+Table of Contents
+---------------------
+  * [Take Back Caps Lock](#take-back-caps-lock)
+  * [OS X](#os-x)
+  * [Windows](#windows)
+  * [Helpful Resources](#helpful-resources)
+
+OS X
+------
 ### 3rd party software
 - [Seil](https://pqrs.org/osx/karabiner/seil.html.en)
 - [Karabiner](https://pqrs.org/osx/karabiner/index.html.en)
@@ -40,7 +48,8 @@ Hold down the Caps Lock key and press h to move the cursor to left, Caps Lock + 
 
 **Note:** Seil and Karabiner will run automatically on startup and both of them need to be running for the shortcuts to work.
 
-## Windows
+Windows
+-----------
 ### 3rd party software
  - [AutoHotKey](https://www.autohotkey.com)
 
@@ -53,9 +62,10 @@ Hold down the Caps Lock key and press h to move the cursor to left, Caps Lock + 
  
 **Note**: The script uses #NoTrayIcon, so it will not appear in Windows system tray.
 
-## Helpful resources
+Helpful Resources
+---------------------
 - [A useful Caps Lock Key](http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/)
 - [Excellent Gist used to make the AHK version](https://gist.github.com/Danik/5808330)
 - [Amazing keyboard layout editor](http://www.keyboard-layout-editor.com)
-- [Color pallete used for keyboard](]http://www.colourlovers.com/palette/3943575/dark_blues)
+- [Color pallete used for keyboard](http://www.colourlovers.com/palette/3943575/dark_blues)
 - [For the readme](https://stackedit.io)
