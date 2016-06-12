@@ -67,5 +67,5 @@ Helpful Resources
 - [A useful Caps Lock Key](http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/)
 - [Excellent Gist used to make the AHK version](https://gist.github.com/Danik/5808330)
 - [Amazing keyboard layout editor](http://www.keyboard-layout-editor.com)
-- [Color pallete used for keyboard](http://www.colourlovers.com/palette/3943575/dark_blues)
+- [Color palette used for keyboard](http://www.colourlovers.com/palette/3943575/dark_blues)
 - [For the readme](https://stackedit.io)
