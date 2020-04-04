@@ -7,7 +7,7 @@
 
 SetCapsLockState, AlwaysOff
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
 ; Capslock + hjkl (left, down, up, right)
 Capslock & h::Send {Blind}{Left DownTemp}
 Capslock & h up::Send {Blind}{Left Up}
@@ -36,6 +36,14 @@ Capslock & 6 up::SendInput {Blind}{Home Up}
 
 Capslock & 4::SendInput {Blind}{End Down}
 Capslock & 4 up::SendInput {Blind}{End Up}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Capslock + x (Delete)
+Capslock & x::SendInput {Blind}{Delete}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Capslock + PrintScreen (Break)
+Capslock & PrintScreen::SendInput {Blind}{CtrlBreak}
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Reverse Scroll
